@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    flex:0.3;
+    background: #16a3f5;
+}
+.container {
+    flex:3;
+   
+    display: flex;
+}
+aside {
+    background: #1393dd;
+    flex:1;
+}
+main {
+    flex: 3;
+    background: #1082c4;
+    padding: 10px;
+}
+footer {
+    flex:1;
+    background: #0c496c;
+}
+table  {
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th {
+    border:1px solid;
+    padding: 8px;
+}
+tbody tr:nth-child(even) {
+    background: #073861;
+}
+thead {
+    background: #3d063c;
+}
+nav,
+main,
+aside,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
